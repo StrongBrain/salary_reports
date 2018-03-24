@@ -23,7 +23,7 @@ for csvfile in glob.glob(os.path.join(data_folder, '*.csv')):
     tablename = os.path.splitext(os.path.basename(csvfile))[0]
     tablename = tablename.replace('-', '_')
 
-    with open(csvfile, "rb") as f:
+    with open(csvfile, "r") as f:
         reader = csv.reader(f)
  
         header = True
