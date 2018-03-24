@@ -1,7 +1,7 @@
 import sqlite3
 import flask
 import pandas as pd
-from flask import render_template
+from flask import render_template, request
 
 app = flask.Flask(__name__)
 
@@ -39,23 +39,25 @@ def display_regions():
     ))
 
 
-@app.route('/aggregate')
+@app.route('/aggregate', methods=["GET", "POST"])
 def display_aggregation():
+    salary = request.form["salary"]
+    filter_field = request.form["filter"]
     df_payback = pd.read_sql_query(
         """
-        SELECT undergraduate_major, starting_median_salary FROM degrees_that_pay_back
-        WHERE starting_median_salary > 50000
-        """, conn)
+        SELECT undergraduate_major, {} FROM degrees_that_pay_back
+        WHERE {} > {}
+        """.format(filter_field, filter_field, salary), conn)
     df_colleges = pd.read_sql_query(
         """
-        SELECT school_name, school_type, starting_median_salary FROM salaries_by_college_type
-        WHERE starting_median_salary > 50000
-        """, conn)
+        SELECT school_name, school_type, {} FROM salaries_by_college_type
+        WHERE {} > {}
+        """.format(filter_field, filter_field, salary), conn)
     df_regions = pd.read_sql_query(
         """
-        SELECT school_name, region, starting_median_salary FROM salaries_by_region
-        WHERE starting_median_salary > 50000
-        """, conn)
+        SELECT school_name, region, {} FROM salaries_by_region
+        WHERE {} > {}
+        """.format(filter_field, filter_field, salary), conn)
     return render_template(
         "aggregate.html",
         payback=df_payback.to_html(

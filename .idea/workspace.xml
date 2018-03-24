@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5682d549-2e09-4b88-b87a-ed9d4b119809" name="Default" comment="" />
+    <list default="true" id="5682d549-2e09-4b88-b87a-ed9d4b119809" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/salaries.sqlite" afterPath="$PROJECT_DIR$/salaries.sqlite" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/base.html" afterPath="$PROJECT_DIR$/templates/base.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web_app.py" afterPath="$PROJECT_DIR$/web_app.py" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,23 +71,24 @@
       <file leaf-file-name="web_app.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web_app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="68" column="10" lean-forward="false" selection-start-line="68" selection-start-column="10" selection-end-line="68" selection-end-column="10" />
+            <state relative-caret-position="477">
+              <caret line="59" column="47" lean-forward="false" selection-start-line="59" selection-start-column="47" selection-end-line="59" selection-end-column="47" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
-                <marker date="1521849720000" expanded="true" signature="388:423" ph="SELECT * FRO... degrees_that_pay_back" />
-                <marker date="1521849720000" expanded="true" signature="644:682" ph="SELECT * FRO... salaries_by_college_type" />
-                <marker date="1521849720000" expanded="true" signature="902:934" ph="SELECT * FRO... salaries_by_region" />
-                <marker date="1521849720000" expanded="true" signature="1187:1309" ph="SELECT * FRO... degrees_that_pay_back" />
-                <marker date="1521849720000" expanded="true" signature="1187:2190" ph="SELECT * FRO... degrees_that_pay_back" />
-                <marker date="1521849720000" expanded="true" signature="1386:1471" ph="SELECT * FRO... salaries_by_college_type" />
-                <marker date="1521849720000" expanded="true" signature="1386:1515" ph="SELECT * FRO... salaries_by_college_type" />
-                <marker date="1521849720000" expanded="true" signature="1386:1516" ph="SELECT schoo... salaries_by_college_type" />
-                <marker date="1521849720000" expanded="true" signature="1386:2190" ph="SELECT * FRO... salaries_by_college_type" />
-                <marker date="1521849720000" expanded="true" signature="1592:1666" ph="SELECT * FRO... salaries_by_region" />
-                <marker date="1521849720000" expanded="true" signature="1592:1710" ph="SELECT * FRO... salaries_by_region" />
-                <marker date="1521849720000" expanded="true" signature="1592:1711" ph="SELECT schoo... salaries_by_region" />
-                <marker date="1521849720000" expanded="true" signature="1592:2190" ph="SELECT * FRO... salaries_by_region" />
+                <marker date="1521875098000" expanded="true" signature="397:432" ph="SELECT * FRO... degrees_that_pay_back" />
+                <marker date="1521875098000" expanded="true" signature="653:691" ph="SELECT * FRO... salaries_by_college_type" />
+                <marker date="1521875098000" expanded="true" signature="911:943" ph="SELECT * FRO... salaries_by_region" />
+                <marker date="1521875098000" expanded="true" signature="1299:1376" ph="SELECT * FRO... degrees_that_pay_back" />
+                <marker date="1521875098000" expanded="true" signature="1299:1378" ph="SELECT under... degrees_that_pay_back" />
+                <marker date="1521875098000" expanded="true" signature="1299:2302" ph="SELECT * FRO... degrees_that_pay_back" />
+                <marker date="1521875098000" expanded="true" signature="1498:1563" ph="SELECT * FRO... salaries_by_college_type" />
+                <marker date="1521875098000" expanded="true" signature="1498:1583" ph="SELECT schoo... salaries_by_college_type" />
+                <marker date="1521875098000" expanded="true" signature="1498:1585" ph="SELECT schoo... salaries_by_college_type" />
+                <marker date="1521875098000" expanded="true" signature="1498:2302" ph="SELECT * FRO... salaries_by_college_type" />
+                <marker date="1521875098000" expanded="true" signature="1704:1758" ph="SELECT * FRO... salaries_by_region" />
+                <marker date="1521875098000" expanded="true" signature="1704:1778" ph="SELECT schoo... salaries_by_region" />
+                <marker date="1521875098000" expanded="true" signature="1704:1780" ph="SELECT schoo... salaries_by_region" />
+                <marker date="1521875098000" expanded="true" signature="1704:2302" ph="SELECT * FRO... salaries_by_region" />
               </folding>
             </state>
           </provider>
@@ -92,8 +97,8 @@
       <file leaf-file-name="base.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="24" lean-forward="false" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+            <state relative-caret-position="43">
+              <caret line="9" column="43" lean-forward="true" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -104,46 +109,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
               <caret line="6" column="39" lean-forward="false" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="regions.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/regions.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="19" lean-forward="false" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="colleges.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/colleges.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="19" lean-forward="false" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="payback.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/payback.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="19" lean-forward="false" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -178,6 +143,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -187,8 +155,8 @@
         <option value="$PROJECT_DIR$/templates/regions.html" />
         <option value="$PROJECT_DIR$/templates/payback.html" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/12f4b507-3ab7-4fe2-8f1c-3a286d6f3e65/console.sql" />
-        <option value="$PROJECT_DIR$/web_app.py" />
         <option value="$PROJECT_DIR$/templates/aggregate.html" />
+        <option value="$PROJECT_DIR$/web_app.py" />
         <option value="$PROJECT_DIR$/templates/base.html" />
       </list>
     </option>
@@ -205,6 +173,7 @@
     <option name="width" value="1624" />
     <option name="height" value="947" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -288,7 +257,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32914287" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -368,14 +337,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/regions.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="19" lean-forward="false" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/payback.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -407,6 +368,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/regions.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="19" lean-forward="false" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/aggregate.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -417,31 +386,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web_app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="68" column="10" lean-forward="false" selection-start-line="68" selection-start-column="10" selection-end-line="68" selection-end-column="10" />
+        <state relative-caret-position="477">
+          <caret line="59" column="47" lean-forward="false" selection-start-line="59" selection-start-column="47" selection-end-line="59" selection-end-column="47" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1521849720000" expanded="true" signature="388:423" ph="SELECT * FRO... degrees_that_pay_back" />
-            <marker date="1521849720000" expanded="true" signature="644:682" ph="SELECT * FRO... salaries_by_college_type" />
-            <marker date="1521849720000" expanded="true" signature="902:934" ph="SELECT * FRO... salaries_by_region" />
-            <marker date="1521849720000" expanded="true" signature="1187:1309" ph="SELECT * FRO... degrees_that_pay_back" />
-            <marker date="1521849720000" expanded="true" signature="1187:2190" ph="SELECT * FRO... degrees_that_pay_back" />
-            <marker date="1521849720000" expanded="true" signature="1386:1471" ph="SELECT * FRO... salaries_by_college_type" />
-            <marker date="1521849720000" expanded="true" signature="1386:1515" ph="SELECT * FRO... salaries_by_college_type" />
-            <marker date="1521849720000" expanded="true" signature="1386:1516" ph="SELECT schoo... salaries_by_college_type" />
-            <marker date="1521849720000" expanded="true" signature="1386:2190" ph="SELECT * FRO... salaries_by_college_type" />
-            <marker date="1521849720000" expanded="true" signature="1592:1666" ph="SELECT * FRO... salaries_by_region" />
-            <marker date="1521849720000" expanded="true" signature="1592:1710" ph="SELECT * FRO... salaries_by_region" />
-            <marker date="1521849720000" expanded="true" signature="1592:1711" ph="SELECT schoo... salaries_by_region" />
-            <marker date="1521849720000" expanded="true" signature="1592:2190" ph="SELECT * FRO... salaries_by_region" />
+            <marker date="1521875098000" expanded="true" signature="397:432" ph="SELECT * FRO... degrees_that_pay_back" />
+            <marker date="1521875098000" expanded="true" signature="653:691" ph="SELECT * FRO... salaries_by_college_type" />
+            <marker date="1521875098000" expanded="true" signature="911:943" ph="SELECT * FRO... salaries_by_region" />
+            <marker date="1521875098000" expanded="true" signature="1299:1376" ph="SELECT * FRO... degrees_that_pay_back" />
+            <marker date="1521875098000" expanded="true" signature="1299:1378" ph="SELECT under... degrees_that_pay_back" />
+            <marker date="1521875098000" expanded="true" signature="1299:2302" ph="SELECT * FRO... degrees_that_pay_back" />
+            <marker date="1521875098000" expanded="true" signature="1498:1563" ph="SELECT * FRO... salaries_by_college_type" />
+            <marker date="1521875098000" expanded="true" signature="1498:1583" ph="SELECT schoo... salaries_by_college_type" />
+            <marker date="1521875098000" expanded="true" signature="1498:1585" ph="SELECT schoo... salaries_by_college_type" />
+            <marker date="1521875098000" expanded="true" signature="1498:2302" ph="SELECT * FRO... salaries_by_college_type" />
+            <marker date="1521875098000" expanded="true" signature="1704:1758" ph="SELECT * FRO... salaries_by_region" />
+            <marker date="1521875098000" expanded="true" signature="1704:1778" ph="SELECT schoo... salaries_by_region" />
+            <marker date="1521875098000" expanded="true" signature="1704:1780" ph="SELECT schoo... salaries_by_region" />
+            <marker date="1521875098000" expanded="true" signature="1704:2302" ph="SELECT * FRO... salaries_by_region" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="24" lean-forward="false" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+        <state relative-caret-position="43">
+          <caret line="9" column="43" lean-forward="true" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
           <folding />
         </state>
       </provider>
