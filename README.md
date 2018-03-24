@@ -1,4 +1,3 @@
-===================
 Project description
 ===================
 
@@ -6,7 +5,6 @@ Project description
   - Runs a Flask webserver to make it possible to review stored data via browser
   - Added some basic filters on UI side to filter data by salary
 
-=============
 Prerequisites
 =============
 
@@ -14,7 +12,6 @@ To start this project under Ubuntu (or EC2 instance with Ubuntu) you'll need:
 
   - virtualenv (to isolate Python's installed libraries)
 
-===========
 Preparation
 ===========
 
@@ -33,7 +30,6 @@ Preparation
 
   Well, your environment is ready!
 
-==================================================
 Move the data from .csv files into SQLite database
 ==================================================
 
@@ -43,7 +39,6 @@ Move the data from .csv files into SQLite database
 
   If everything is OK, `salaries.sqlite` file will appear in your folder.
 
-============================
 Startup your web application
 ============================
 
