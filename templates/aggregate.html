@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block content %}
+<h4>Degrees that payback aggregation statistics.</h4>
+{{payback | safe}}
+<h4>Salaries by college type statistics.</h4>
+{{colleges | safe}}
+<h4>Salaries by region statistics.</h4>
+{{regions | safe}}
+{% endblock %}

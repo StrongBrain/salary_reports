@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    {% block head %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>{% block title %}{% endblock %} - Salary review</title>
+    {% endblock %}
+  </head>
+  <body>
+  <div class="container">
+    <h2>This is some salary statistics.</h2>
+    <div id="buttons" class="btn-toolbar">
+        <a href="./payback" class="btn btn-primary">Degrees that payback.</a>
+        <a href="./colleges" class="btn btn-primary">Salaries by college type.</a>
+        <a href="./regions" class="btn btn-primary">Salaries by region.</a>
+        <a href="./aggregate" class="btn btn-primary">Show with starting media salary > 50000.</a>
+    </div>
+    <br />
+    <div id="content">{% block content %}{% endblock %}</div>
+    <div id="footer">
+      {% block footer %}
+      {% endblock %}
+    </div>
+  </div>
+  </body>
+</html>
