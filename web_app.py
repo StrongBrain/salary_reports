@@ -1,9 +1,8 @@
 import sqlite3
-import flask
 import pandas as pd
-from flask import render_template, request
+from flask import Flask, render_template, request
 
-app = flask.Flask(__name__)
+app = Flask(__name__)
 
 # Connect to SQLite3 database.
 conn = sqlite3.connect('salaries.sqlite')
